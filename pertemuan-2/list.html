@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-96">
+        <h2 class="text-2xl font-bold mb-4 text-center">Aplikasi Todo List</h2>
+        <div class="mb-4 flex items-center">
+            <input type="text" placeholder="Inputkan tugas yang akan dikerjakan .." class="flex-grow px-3 py-2 border rounded-md border-gray-300 focus:outline-none">
+            <button class="ml-2 px-4 py-2 bg-blue-500 text-white rounded-md">TAMBAHKAN</button>
+        </div>
+        <ul>
+            <li class="flex items-center justify-between mb-2">
+                <span>Perkerjaan Selasa</span>
+                <div class="flex">
+                    <button class="px-3 py-1 bg-green-200 text-green-700 rounded-md mr-2">SELESAI</button>
+                    <button class="px-3 py-1 bg-red-200 text-red-700 rounded-md">HAPUS</button>
+                </div>
+            </li>
+            <li class="flex items-center justify-between mb-2">
+                <span>Pekerjaan Rabu</span>
+                <div class="flex">
+                    <button class="px-3 py-1 bg-green-200 text-green-700 rounded-md mr-2">SELESAI</button>
+                    <button class="px-3 py-1 bg-red-200 text-red-700 rounded-md">HAPUS</button>
+                </div>
+            </li>
+            <li class="flex items-center justify-between">
+                <span>Mabar Minggu</span>
+                <div class="flex">
+                    <button class="px-3 py-1 bg-green-200 text-green-700 rounded-md mr-2">SELESAI</button>
+                    <button class="px-3 py-1 bg-red-200 text-red-700 rounded-md">HAPUS</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
